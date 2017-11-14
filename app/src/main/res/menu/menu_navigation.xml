@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/single_1"
+            android:title="我的消息" />
+        <item
+            android:id="@+id/single_2"
+            android:title="积分商城" />
+        <item
+            android:id="@+id/single_3"
+            android:title="会员中心" />
+        <item
+            android:id="@+id/single_4"
+            android:title="在线听歌" />
+    </group>
+    <item android:title="子菜单">
+        <menu>
+            <item
+                android:id="@+id/item_1"
+                android:title="听歌识曲" />
+            <item
+                android:id="@+id/item_2"
+                android:title="主题皮肤" />
+            <item
+                android:id="@+id/item_3"
+                android:title="夜间模式" />
+            <item
+                android:id="@+id/item_4"
+                android:title="定时停止播放" />
+            <item
+                android:id="@+id/item_5"
+                android:title="音乐闹钟" />
+            <item
+                android:id="@+id/item_6"
+                android:title="我的音乐云盘" />
+            <item
+                android:id="@+id/item_7"
+                android:title="驾驶模式" />
+        </menu>
+    </item>
+</menu>
